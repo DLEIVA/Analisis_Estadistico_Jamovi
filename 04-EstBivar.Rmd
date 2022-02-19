@@ -1,4 +1,4 @@
-# Footnotes and citations 
+# Estadística descriptiva bivariante con Jamovi 
 
 ## Footnotes
 
