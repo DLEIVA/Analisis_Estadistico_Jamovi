@@ -1,4 +1,4 @@
-# Estadística paramétrica
+# Contrastes no paramétricos con Jamovi
 
 ## Publishing
 
