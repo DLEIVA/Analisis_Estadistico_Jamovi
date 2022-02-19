@@ -1,4 +1,4 @@
-# Blocks
+# Probabilidad con Jamovi
 
 ## Equations
 
