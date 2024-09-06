@@ -19,6 +19,10 @@ github-repo: DLEIVA/Analisis_Estadistico_jamovi
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
 
+```{block, type = "rmdnote"}
+A token is a meaningful unit of text, most often a word, that we are interested in using for further analysis, and tokenization is the process of splitting text into tokens. 
+```
+
 ## Usage 
 
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
