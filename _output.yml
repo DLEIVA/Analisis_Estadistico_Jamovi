@@ -1,10 +1,31 @@
+bookdown::bs4_book:
+  theme:
+    primary: "#5b7886"
+    base_font:
+      google: Roboto
+  repo: https://github.com/DLEIVA/Analisis_Estadistico_Jamovi
+  includes:
+    in_header: _includes/analytics.html
+
 bookdown::gitbook:
   css: style.css
   config:
     toc:
+      collapse: section
       before: |
-        <li><a href="./">Estadística Aplicada con Jamovi</a></li>
+        <li><a href="./">Text Mining with R</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado con bookdown</a></li>
-    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
-    download: ["pdf", "epub"]
+        <li><a href="https://github.com/DLEIVA/Analisis_Estadistico_Jamovi" target="blank">Publicado con bookdown</a></li>
+    edit:
+      link: https://github.com/DLEIVA/Analisis_Estadistico_Jamovi/edit/master/%s
+  includes:
+    in_header: _includes/analytics.html
+
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: pdflatex
+  citation_package: apabib
+  keep_tex: yes
+
+bookdown::epub_book: default
